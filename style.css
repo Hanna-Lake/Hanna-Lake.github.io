@@ -148,7 +148,6 @@ html {
     transition-delay: 0.1875s;
   }
   nav .nav-wrap .menu-bg a:hover {
-    background-color: #3498db;
     transition: background-color 500ms linear !important;
   }
   nav .nav-wrap #menu {
@@ -160,7 +159,6 @@ html {
     background-color: white;
   }
   nav .nav-wrap #menu:checked ~ .menu span:before, nav .nav-wrap #menu:checked ~ .menu span:after {
-    background-color: #3498db;
     transform-origin: center center;
   }
   nav .nav-wrap #menu:checked ~ .menu span:before {
