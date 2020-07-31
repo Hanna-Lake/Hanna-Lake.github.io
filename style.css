@@ -33,7 +33,7 @@ body {
     width: 20%;
     height: auto;
 }
-.nav {
+.navbar {
     /*  ширна произвольная, не стесняйтесь экспериментировать */
     width: 50px;
     min-width: 50px;
