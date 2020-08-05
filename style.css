@@ -471,4 +471,203 @@ h2{
   text-align: center;
   padding-top: 20px;
 }
-   
+.hr {
+  border: none; /* Убираем границу */
+  background-color:white; /* Цвет линии */
+  color: white; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+}
+
+.about-section {
+ width: 100%;
+ background-color: #112;
+ height: auto;
+}
+.about-text {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+}
+.about-text-small {
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.about-text-1 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  margin-left: 40px;
+  width: 40%;
+}
+.about-text-2 {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  padding: 30px;
+}
+.contact-info {
+  padding: 20px;
+  background-color: #112;
+} 
+
+.contact-section {
+  background-color:#112;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px;
+}
+
+.contact-heading {
+text-align: center;
+font-size: 60px;
+color:white;
+}
+
+address {
+  color: white;
+  font-size: 17px;
+}
+.decor {
+  position: relative;
+  max-width: 600px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+  
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #112;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #112;
+  border-bottom: 4px solid white;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+
+footer {
+  background-color:black;
+  height: auto;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color: white;
+}
+
+.logo-image-footer {
+  width:20%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.social {
+  margin-left: 1200px;
+  transform: translate(0, 170%);
+}
+
+.copyright {
+  color: white;
+  margin-left: 40px;
+  padding: 20px;
+  margin-top: 0;
+}
